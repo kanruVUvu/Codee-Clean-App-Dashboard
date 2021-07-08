@@ -1,0 +1,4302 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  
+}
+
+body{
+   background-color: #f3f5f9;
+}
+@media (min-width: 1281px) {
+	.bday
+	{
+	width: 60%;
+    background: #F0F0F0;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    font-family: Nunito Sans;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+	color: #232323;
+	}
+	.modal-footer
+	{
+	padding: 15px;
+    text-align: right;
+	border-top:0px;
+	}
+	.modal-header
+	{
+	padding:15px;
+	border-bottom:0px;
+	}
+	.navbar
+  {
+   background-color: #FF6900;
+    position: absolute;
+    top: 0px;
+    /* z-index: 10; */
+    height: 60px;
+    width: 119.42%;
+    left: 12px;
+  }
+.header
+{
+  background-color:white;
+  height:60px;
+}
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar{
+  height: 100%;
+  background:white;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.wrapper .sidebar h2{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+  padding: 15px;
+}    
+
+.wrapper .sidebar ul li a{
+  color: #bdb8d7;
+  display: block;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+ 
+.wrapper .sidebar .social_media{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.wrapper .sidebar .social_media a{
+  display: block;
+  width: 40px;
+  background: #594f8d;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: #bdb8d7;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 200px;
+}
+
+.wrapper .main_content .header{
+  padding: 20px;
+  background: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}
+	.cleaner29
+	{
+	margin-left: 5%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+    position: relative;
+    top: 12px;
+	}
+	#tasksbuttonclock
+	{
+	position: relative;
+    left: -42.35%;
+    top: 69.64%;
+    color: #FFFFFF;
+    background: #FF6900;
+    border-radius: 8px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+	}
+	.clockinput
+	{
+	font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #262626;
+    position: relative;
+    top: -26px;
+    right: -20px;
+	}
+	.clockoutput
+	{
+	font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #262626;
+    position: relative;
+    top: -34px;
+    right: -57px;
+	}
+	.changeb
+	{
+		font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #393939;
+    position: relative;
+    right: -281px;
+    top: -14px;
+	}
+	.modal-body21
+	{
+	position: relative;
+    padding: 15px;
+    top: 42px;
+    right: -49px;
+	}
+	.manj
+	{
+	width: 281px;
+    height: 21px;
+    left: 370px;
+    top: 420px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #393939;
+	}
+	.description2
+	{
+	position: relative;
+    width: 281px;
+    height: 21px;
+    left: 17px;
+    top: 12px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+	}
+	.col-md-3
+	{
+	width: 25.01%;
+	}
+	.list1
+	{
+		position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 149px;
+    top: 24px;
+	}
+	.grid1
+	{
+	position: absolute; */
+    width: 50px;
+    height: 50px;
+    left: 226px;
+    top: 24px;
+	}
+	.texty
+	{
+	position: absolute;
+left: 6.01%;
+right: 4.7%;
+top: 20.09%;
+bottom: 50.45%;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+text-align: center;
+
+color: #000000;
+	}
+#tasksbutton2 {
+    width: 139px;
+    position: relative;
+    left: -11.21%;
+    /* right: 50.91%; */
+    top: 43.2px;
+    color: #FF6900;
+    background: #FFFFFF;
+    border: 1px solid #FF6900;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#tasksbutton3 {
+    position: relative;
+    width: 139px;
+    left: -11.35%;
+    top: 43.2px;
+    /* bottom: -43px; */
+    color: #FFFFFF;
+    background: #FF6900;
+    border-radius: 8px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    border-color: #FFFFFF;
+}
+#tasksbuttoncleaner {
+    position: relative;
+    width: 139px;
+    left: -11.35%;
+    top: 43.2px;
+    /* bottom: -43px; */
+    color: #FFFFFF;
+    background: #FF6900;
+    border-radius: 8px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    border-color: #FFFFFF;
+}
+.best
+{
+  background-color:#E5E5E5;
+overflow-y: scroll; /* Add the ability to scroll */
+overflow-x:hidden;
+font-family: Nunito Sans;
+}
+#arrange
+{
+position: relative;
+    width: 168.49px;
+    height: 47.3px;
+    left: 51px;
+    top: 6px;
+    margin-left: 52px;
+}
+.pain
+{
+position: absolute;
+    width: 100px;
+    height: 19px;
+    top: 6px;
+    left: -347px;
+    text-decoration: none;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 27px;
+}
+#taskmania
+{
+position: relative;
+    width: 1628px;
+    height: 106px;
+    left: 242px;
+    top: 0px;
+    background: #FFFFFF;
+}
+#hello
+{
+position: absolute;
+width: 224px;
+height: 35px;
+left: 29px;
+top: 14px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 35px;
+color: #24272A;
+}
+#sideways
+{
+  position: absolute;
+    width: 254px;
+    height: 1024px;
+    left: -3px;
+    top: 0px;
+    background: #FFFFFF;
+    /* z-index: 10;
+    margin-top: 61px; */
+}
+.menu
+{
+  position:relative;
+  bottom:-81px;
+}
+.taskinfo
+{
+position: absolute;
+width: 69px;
+height: 21px;
+left: 74px;
+top: 12px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 27px;
+}
+.add_t
+{
+position: relative;
+width: 209px;
+height: 51px;
+left: 1026px;
+top:26px;
+background: #FF6900;
+border-radius: 8px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 27px;
+border-color: #FFFFFF;
+    border-width: 0px;
+}
+.submit_button
+{
+width: 209px;
+height: 51px;
+background: #FF6900;
+border-radius: 8px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 27px;
+color: #FFFFFF;
+border-color:#FFFFFF;
+border-width:0px;
+}
+.ong
+{
+  position: absolute;
+    width: 124px;
+    height: 21px;
+    left: 86px;
+    top: 49px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: none;
+}
+.cmp
+{
+  position: absolute;
+    width: 124px;
+    height: 21px;
+    left: 86px;
+    top: 80px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: none;
+}
+.completed_task
+{
+  position: absolute;
+    width: 124px;
+    height: 21px;
+    left: 86px;
+    top: 113px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: none;
+}
+.not
+{
+position: absolute;
+    width: 148px;
+    height: 21px;
+    left: 71px;
+    top: 162px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 27px;
+    text-decoration: none;
+}
+.dot
+{
+position: absolute;
+    width: 148px;
+    height: 21px;
+    left: 71px;
+    top: 215px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 27px;
+    text-decoration: none;
+}
+.cleaner_list
+{
+position: absolute;
+    width: 148px;
+    height: 21px;
+    left: 71px;
+    top: 264px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 27px;
+    text-decoration: none;
+}
+.rectangle1
+{
+position: relative;
+    width: 348px;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgb(133 133 133 / 25%);
+    border-radius: 14px;
+}
+.input_text1
+{
+width: 80%;
+background: #F0F0F0;
+padding: 16px 20px;
+border: none;
+border-radius: 8px;
+background-color: #f1f1f1;font-family: Nunito Sans;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize;
+color: #232323;
+}
+.date
+{
+width: 60%;
+    background: #F0F0F0;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+.apt
+{
+position: relative;
+    width: 120px;
+    height: 21px;
+    left: 59px;
+    top: 0px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 25px;
+    color: #393939;
+}
+.input_text2
+{
+width: 80%;
+background: #F0F0F0;
+padding: 16px 20px;
+border: none;
+border-radius: 8px;
+background-color: #f1f1f1;font-family: Nunito Sans;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize;
+color: #232323;
+}
+.select
+{
+ width: 80%;
+background: #F0F0F0;
+padding: 16px 20px;
+border: none;
+border-radius: 8px;
+background-color: #f1f1f1;font-family: Nunito Sans;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize; 
+}
+#text
+{
+  font-family: Nunito Sans;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize;
+}
+.task
+{
+position: absolute;
+width: 232px;
+height: 35px;
+left: 6%;
+top:2%;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 30px;
+color: #FF6900;
+}
+.site_address
+{
+position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 11%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #393939;
+}
+.site_addressadmin
+{
+position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 12%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #393939;
+}
+.site_addressadmin2
+{
+position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 11%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #393939;
+}
+.description1
+{
+ position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 140px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+}
+.descriptionadd
+{
+ position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 144px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+}
+.line
+{
+position: absolute;
+    width: 348px;
+    height: 0px;
+    border: 1px solid #ECECEC;
+}
+.date
+{
+  background-color: white;
+    height: 0px;
+    margin-left: 9%;
+    color: #FF6900;
+    position: relative;
+    left: 2%;
+}
+.apt
+{
+  position: relative;
+    width: 120px;
+    height: 21px;
+    left: 59px;
+    top: 0px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 25px;
+    color: #393939;
+}
+.cleaner
+{
+margin-left: 5%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+    position: relative;
+    top: -1px;
+}
+.edit_button
+{
+margin-top:-2%;
+margin-left:85%;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #393939;
+}
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+	.bday
+	{
+	width: 60%;
+    background: #F0F0F0;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    font-family: Nunito Sans;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+	color: #232323;
+	}
+	.modal-footer
+	{
+	padding: 15px;
+    text-align: right;
+	border-top:0px;
+	}
+	.modal-header
+	{
+	padding:15px;
+	border-bottom:0px;
+	}
+	.navbar
+  {
+    background-color: #FF6900;
+    position: absolute;
+    top: 0px;
+    /* z-index: 10; */
+    height: 60px;
+    width: 119.42%;
+    left: 12px;
+  }
+.header
+{
+  background-color:white;
+  height:60px;
+}
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar{
+  height: 100%;
+  background:white;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.wrapper .sidebar h2{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+  padding: 15px;
+  
+}    
+
+.wrapper .sidebar ul li a{
+  color: #bdb8d7;
+  display: block;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+ 
+.wrapper .sidebar .social_media{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.wrapper .sidebar .social_media a{
+  display: block;
+  width: 40px;
+  background: #594f8d;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: #bdb8d7;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 200px;
+}
+
+.wrapper .main_content .header{
+  padding: 20px;
+  background: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}
+.cleaner29
+	{
+	margin-left: 5%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+    position: relative;
+    top: 12px;
+	}
+	#tasksbuttonclock
+	{
+	position: relative;
+    left: -42.35%;
+    top: 69.64%;
+    color: #FFFFFF;
+    background: #FF6900;
+    border-radius: 8px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+	}
+	.clockinput
+	{
+	font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #262626;
+    position: relative;
+    top: -26px;
+    right: -20px;
+	}
+	.clockoutput
+	{
+	font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #262626;
+    position: relative;
+    top: -34px;
+    right: -57px;
+	}
+	.changeb
+	{
+		font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #393939;
+    position: relative;
+    right: -281px;
+    top: -14px;
+	}
+	.modal-body21
+	{
+	position: relative;
+    padding: 15px;
+    top: 42px;
+    right: -49px;
+	}
+	.manj
+	{
+	width: 281px;
+    height: 21px;
+    left: 370px;
+    top: 420px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #393939;
+	}
+	.description2
+	{
+	position: relative;
+    width: 281px;
+    height: 21px;
+    left: 17px;
+    top: 12px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+	}
+	.col-md-3
+	{
+	width: 25.01%;
+	}
+	.list1
+	{
+		position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 149px;
+    top: 24px;
+	}
+	.grid1
+	{
+	position: absolute; */
+    width: 50px;
+    height: 50px;
+    left: 226px;
+    top: 24px;
+	}
+	.texty
+	{
+	position: absolute;
+left: 6.01%;
+right: 4.7%;
+top: 20.09%;
+bottom: 50.45%;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+text-align: center;
+
+color: #000000;
+	}
+#tasksbutton2 {
+    width: 139px;
+    position: relative;
+    left: -11.21%;
+    /* right: 50.91%; */
+    top: 43.2px;
+    color: #FF6900;
+    background: #FFFFFF;
+    border: 1px solid #FF6900;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#tasksbutton3 {
+    position: relative;
+    width: 139px;
+    left: -11.35%;
+    top: 43.2px;
+    /* bottom: -43px; */
+    color: #FFFFFF;
+    background: #FF6900;
+    border-radius: 8px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    border-color: #FFFFFF;
+}
+.best
+{
+  background-color:#E5E5E5;
+overflow-y: scroll; /* Add the ability to scroll */
+overflow-x:scroll;
+font-family: Nunito Sans;
+}
+#arrange
+{
+position: relative;
+    width: 168.49px;
+    height: 47.3px;
+    left: 51px;
+    top: 6px;
+    margin-left: 52px;
+}
+.pain
+{
+position: absolute;
+    width: 100px;
+    height: 19px;
+    top: 6px;
+    left: -347px;
+    text-decoration: none;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 27px;
+}
+#taskmania
+{
+position: relative;
+    width: 1628px;
+    height: 106px;
+    left: 242px;
+    top: 0px;
+    background: #FFFFFF;
+}
+#hello
+{
+position: absolute;
+width: 224px;
+height: 35px;
+left: 29px;
+top: 14px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 35px;
+color: #24272A;
+}
+#sideways
+{
+ position: absolute;
+    width: 254px;
+    height: 1024px;
+    left: -3px;
+    top: 0px;
+    background: #FFFFFF;
+    /*z-index: 10;
+    margin-top: 61px; */
+}
+.menu
+{
+  position:relative;
+  bottom:-81px;
+}
+.taskinfo
+{
+position: absolute;
+width: 69px;
+height: 21px;
+left: 74px;
+top: 12px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 27px;
+}
+.add_t
+{
+position: relative;
+width: 209px;
+height: 51px;
+left: 1029px;
+top:26px;
+background: #FF6900;
+border-radius: 8px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 27px;
+border-color: #FFFFFF;
+    border-width: 0px;
+}
+.submit_button
+{
+width: 209px;
+height: 51px;
+background: #FF6900;
+border-radius: 8px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 27px;
+color: #FFFFFF;
+border-color:#FFFFFF;
+border-width:0px;
+}
+.ong
+{
+  position: absolute;
+    width: 124px;
+    height: 21px;
+    left: 86px;
+    top: 49px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: none;
+}
+.cmp
+{
+  position: absolute;
+    width: 124px;
+    height: 21px;
+    left: 86px;
+    top: 80px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: none;
+}
+.completed_task
+{
+  position: absolute;
+    width: 124px;
+    height: 21px;
+    left: 86px;
+    top: 113px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: none;
+}
+.not
+{
+position: absolute;
+    width: 148px;
+    height: 21px;
+    left: 71px;
+    top: 162px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 27px;
+    text-decoration: none;
+}
+.dot
+{
+position: absolute;
+    width: 148px;
+    height: 21px;
+    left: 71px;
+    top: 215px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 27px;
+    text-decoration: none;
+}
+.cleaner_list
+{
+position: absolute;
+    width: 148px;
+    height: 21px;
+    left: 71px;
+    top: 264px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 27px;
+    text-decoration: none;
+}
+.rectangle1
+{
+position: relative;
+    width: 348px;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgb(133 133 133 / 25%);
+    border-radius: 14px;
+}
+.input_text1
+{
+width: 80%;
+background: #F0F0F0;
+padding: 16px 20px;
+border: none;
+border-radius: 8px;
+background-color: #f1f1f1;font-family: Nunito Sans;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize;
+color: #232323;
+}
+.date
+{
+width: 60%;
+    background: #F0F0F0;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+.apt
+{
+position: relative;
+    width: 120px;
+    height: 21px;
+    left: 59px;
+    top: 0px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 25px;
+    color: #393939;
+}
+.input_text2
+{
+width: 80%;
+background: #F0F0F0;
+padding: 16px 20px;
+border: none;
+border-radius: 8px;
+background-color: #f1f1f1;font-family: Nunito Sans;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize;
+color: #232323;
+}
+.select
+{
+ width: 80%;
+background: #F0F0F0;
+padding: 16px 20px;
+border: none;
+border-radius: 8px;
+background-color: #f1f1f1;font-family: Nunito Sans;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize; 
+}
+#text
+{
+  font-family: Nunito Sans;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize;
+}
+.task
+{
+position: absolute;
+width: 232px;
+height: 35px;
+left: 6%;
+top:2%;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 30px;
+color: #FF6900;
+}
+.site_address
+{
+position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 11%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #393939;
+}
+.site_addressadmin
+{
+position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 12%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #393939;
+}
+.site_addressadmin2
+{
+position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 11%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #393939;
+}
+.description1
+{
+ position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 140px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+}
+.descriptionadd
+{
+ position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 144px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+}
+.line
+{
+position: absolute;
+    width: 348px;
+    height: 0px;
+    border: 1px solid #ECECEC;
+}
+.date
+{
+  background-color: white;
+    height: 0px;
+    margin-left: 9%;
+    color: #FF6900;
+    position: relative;
+    left: 2%;
+}
+.apt
+{
+  position: relative;
+    width: 120px;
+    height: 21px;
+    left: 59px;
+    top: 0px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 25px;
+    color: #393939;
+}
+.cleaner
+{
+margin-left: 5%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+    position: relative;
+    top: -1px;
+}
+.edit_button
+{
+margin-top:-2%;
+margin-left:85%;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #393939;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.bday
+	{
+	width: 60%;
+    background: #F0F0F0;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    font-family: Nunito Sans;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+	color: #232323;
+	}
+	.modal-footer
+	{
+	padding: 15px;
+    text-align: right;
+	border-top:0px;
+	}
+	.modal-header
+	{
+	padding:15px;
+	border-bottom:0px;
+	}
+.navbar
+  {
+   background-color: #FF6900;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    height: 60px;
+    width: 121.58%;
+    left: -3px;
+  }
+.header
+{
+  background-color:white;
+  height:60px;
+}
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar{
+  height: 100%;
+  background:white;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.wrapper .sidebar h2{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+  padding: 15px;
+}    
+
+.wrapper .sidebar ul li a{
+  color: #bdb8d7;
+  display: block;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+ 
+.wrapper .sidebar .social_media{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.wrapper .sidebar .social_media a{
+  display: block;
+  width: 40px;
+  background: #594f8d;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: #bdb8d7;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 200px;
+}
+
+.wrapper .main_content .header{
+  padding: 20px;
+  background: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}
+	.cleaner29
+	{
+	margin-left: 5%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+    position: relative;
+    top: 12px;
+	}
+	#tasksbuttonclock
+	{
+	position: relative;
+    left: -42.35%;
+    top: 69.64%;
+    color: #FFFFFF;
+    background: #FF6900;
+    border-radius: 8px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+	}
+	.clockinput
+	{
+	font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #262626;
+    position: relative;
+    top: -26px;
+    right: -20px;
+	}
+	.clockoutput
+	{
+	font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #262626;
+    position: relative;
+    top: -34px;
+    right: -57px;
+	}
+	.changeb
+	{
+		font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #393939;
+    position: relative;
+    right: -281px;
+    top: -14px;
+	}
+	.modal-body21
+	{
+	position: relative;
+    padding: 15px;
+    top: 42px;
+    right: -49px;
+	}
+	.manj
+	{
+	width: 281px;
+    height: 21px;
+    left: 370px;
+    top: 420px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #393939;
+	}
+	.description2
+	{
+	position: relative;
+    width: 281px;
+    height: 21px;
+    left: 17px;
+    top: 12px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+	}
+	.col-md-3
+	{
+	width: 25.01%;
+	}
+	.list1
+	{
+		position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 149px;
+    top: 24px;
+	}
+	.grid1
+	{
+	position: absolute; */
+    width: 50px;
+    height: 50px;
+    left: 226px;
+    top: 24px;
+	}
+	.texty
+	{
+	position: absolute;
+left: 6.01%;
+right: 4.7%;
+top: 20.09%;
+bottom: 50.45%;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+text-align: center;
+
+color: #000000;
+	}
+#tasksbutton2 {
+   width: 139px;
+    position: relative;
+    left: -11.21%;
+    /* right: 50.91%; */
+    top: 43.2px;
+    color: #FF6900;
+    background: #FFFFFF;
+    border: 1px solid #FF6900;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#tasksbutton3 {
+    position: relative;
+    width: 139px;
+    left: -11.35%;
+    top: 43.2px;
+    /* bottom: -43px; */
+    color: #FFFFFF;
+    background: #FF6900;
+    border-radius: 8px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    border-color: #FFFFFF;
+}
+.best
+{
+  background-color:#E5E5E5;
+overflow-y: scroll; /* Add the ability to scroll */
+overflow-x:scroll;
+font-family: Nunito Sans;
+}
+#arrange
+{
+position: relative;
+    width: 168.49px;
+    height: 47.3px;
+    left: 51px;
+    top: 6px;
+    margin-left: 52px;
+}
+.pain
+{
+position: absolute;
+    width: 100px;
+    height: 19px;
+    top: 6px;
+    left: -347px;
+    text-decoration: none;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 27px;
+}
+#taskmania
+{
+position: relative;
+    width: 1628px;
+    height: 106px;
+    left: 242px;
+    top: 0px;
+    background: #FFFFFF;
+}
+#hello
+{
+position: absolute;
+width: 224px;
+height: 35px;
+left: 29px;
+top: 14px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 35px;
+color: #24272A;
+}
+#sideways
+{
+  position: fixed;
+    width: 254px;
+    height: 1024px;
+    left: -3px;
+    top: 0px;
+    background: #FFFFFF;
+    z-index: 10;
+    margin-top: 61px;
+}
+.menu
+{
+  position:relative;
+  bottom:-81px;
+}
+.taskinfo
+{
+position: absolute;
+width: 69px;
+height: 21px;
+left: 74px;
+top: 12px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 27px;
+}
+.add_t
+{
+position: relative;
+width: 209px;
+height: 51px;
+left: 1024px;
+top:26px;
+background: #FF6900;
+border-radius: 8px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 27px;
+border-color: #FFFFFF;
+    border-width: 0px;
+}
+.submit_button
+{
+width: 209px;
+height: 51px;
+background: #FF6900;
+border-radius: 8px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 27px;
+color: #FFFFFF;
+border-color:#FFFFFF;
+border-width:0px;
+}
+.ong
+{
+  position: absolute;
+    width: 124px;
+    height: 21px;
+    left: 86px;
+    top: 49px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: none;
+}
+.cmp
+{
+  position: absolute;
+    width: 124px;
+    height: 21px;
+    left: 86px;
+    top: 80px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: none;
+}
+.completed_task
+{
+  position: absolute;
+    width: 124px;
+    height: 21px;
+    left: 86px;
+    top: 113px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: none;
+}
+.not
+{
+position: absolute;
+    width: 148px;
+    height: 21px;
+    left: 71px;
+    top: 162px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 27px;
+    text-decoration: none;
+}
+.dot
+{
+position: absolute;
+    width: 148px;
+    height: 21px;
+    left: 71px;
+    top: 215px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 27px;
+    text-decoration: none;
+}
+.cleaner_list
+{
+position: absolute;
+    width: 148px;
+    height: 21px;
+    left: 71px;
+    top: 264px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 27px;
+    text-decoration: none;
+}
+.rectangle1
+{
+position: relative;
+    width: 348px;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgb(133 133 133 / 25%);
+    border-radius: 14px;
+}
+.input_text1
+{
+width: 80%;
+background: #F0F0F0;
+padding: 16px 20px;
+border: none;
+border-radius: 8px;
+background-color: #f1f1f1;font-family: Nunito Sans;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize;
+color: #232323;
+}
+.date
+{
+width: 60%;
+    background: #F0F0F0;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+.apt
+{
+position: relative;
+    width: 120px;
+    height: 21px;
+    left: 59px;
+    top: 0px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 25px;
+    color: #393939;
+}
+.input_text2
+{
+width: 80%;
+background: #F0F0F0;
+padding: 16px 20px;
+border: none;
+border-radius: 8px;
+background-color: #f1f1f1;font-family: Nunito Sans;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize;
+color: #232323;
+}
+.select
+{
+ width: 80%;
+background: #F0F0F0;
+padding: 16px 20px;
+border: none;
+border-radius: 8px;
+background-color: #f1f1f1;font-family: Nunito Sans;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize; 
+}
+#text
+{
+  font-family: Nunito Sans;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize;
+}
+.task
+{
+position: absolute;
+width: 232px;
+height: 35px;
+left: 6%;
+top:2%;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 30px;
+color: #FF6900;
+}
+.site_address
+{
+position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 11%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #393939;
+}
+.site_addressadmin
+{
+position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 12%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #393939;
+}
+.site_addressadmin2
+{
+position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 11%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #393939;
+}
+.description1
+{
+ position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 140px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+}
+.descriptionadd
+{
+ position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 144px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+}
+.line
+{
+position: absolute;
+    width: 348px;
+    height: 0px;
+    border: 1px solid #ECECEC;
+}
+.date
+{
+  background-color: white;
+    height: 0px;
+    margin-left: 9%;
+    color: #FF6900;
+    position: relative;
+    left: 2%;
+}
+.apt
+{
+  position: relative;
+    width: 120px;
+    height: 21px;
+    left: 59px;
+    top: 0px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 25px;
+    color: #393939;
+}
+.cleaner
+{
+margin-left: 5%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+    position: relative;
+    top: -1px;
+}
+.edit_button
+{
+margin-top:-2%;
+margin-left:85%;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #393939;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+.bday
+	{
+	width: 60%;
+    background: #F0F0F0;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    font-family: Nunito Sans;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+	color: #232323;
+	}
+.modal-footer
+	{
+	padding: 15px;
+    text-align: right;
+	border-top:0px;
+	}
+.modal-header
+	{
+	padding:15px;
+	border-bottom:0px;
+	}
+.navbar
+  {
+    background-color: #FF6900;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    height: 60px;
+    width: 121.58%;
+    left: -3px;
+  }
+.header
+{
+  background-color:white;
+  height:60px;
+}
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar{
+  height: 100%;
+  background:white;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.wrapper .sidebar h2{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+  padding: 15px;
+}    
+
+.wrapper .sidebar ul li a{
+  color: #bdb8d7;
+  display: block;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+ 
+.wrapper .sidebar .social_media{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.wrapper .sidebar .social_media a{
+  display: block;
+  width: 40px;
+  background: #594f8d;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: #bdb8d7;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 200px;
+}
+
+.wrapper .main_content .header{
+  padding: 20px;
+  background: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}
+	.cleaner29
+	{
+	margin-left: 5%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+    position: relative;
+    top: 12px;
+	}
+	#tasksbuttonclock
+	{
+	position: relative;
+    left: -42.35%;
+    top: 69.64%;
+    color: #FFFFFF;
+    background: #FF6900;
+    border-radius: 8px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+	}
+	.clockinput
+	{
+	font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #262626;
+    position: relative;
+    top: -26px;
+    right: -20px;
+	}
+	.clockoutput
+	{
+	font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #262626;
+    position: relative;
+    top: -34px;
+    right: -57px;
+	}
+	.changeb
+	{
+		font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #393939;
+    position: relative;
+    right: -281px;
+    top: -14px;
+	}
+	.modal-body21
+	{
+	position: relative;
+    padding: 15px;
+    top: 42px;
+    right: -49px;
+	}
+	.manj
+	{
+	width: 281px;
+    height: 21px;
+    left: 370px;
+    top: 420px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #393939;
+	}
+	.description2
+	{
+	position: relative;
+    width: 281px;
+    height: 21px;
+    left: 17px;
+    top: 12px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+	}
+	.col-md-3
+	{
+	width: 25.01%;
+	}
+	.list1
+	{
+		position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 149px;
+    top: 24px;
+	}
+	.grid1
+	{
+	position: absolute; */
+    width: 50px;
+    height: 50px;
+    left: 226px;
+    top: 24px;
+	}
+	.texty
+	{
+	position: absolute;
+left: 6.01%;
+right: 4.7%;
+top: 20.09%;
+bottom: 50.45%;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+text-align: center;
+
+color: #000000;
+	}
+#tasksbutton2 {
+   width: 139px;
+    position: relative;
+    left: -11.21%;
+    /* right: 50.91%; */
+    top: 43.2px;
+    color: #FF6900;
+    background: #FFFFFF;
+    border: 1px solid #FF6900;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#tasksbutton3 {
+    position: relative;
+    width: 139px;
+    left: -11.35%;
+    top: 43.2px;
+    /* bottom: -43px; */
+    color: #FFFFFF;
+    background: #FF6900;
+    border-radius: 8px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    border-color: #FFFFFF;
+}
+.best
+{
+  background-color:#E5E5E5;
+overflow-y: scroll; /* Add the ability to scroll */
+overflow-x:scroll;
+font-family: Nunito Sans;
+}
+#arrange
+{
+position: relative;
+    width: 168.49px;
+    height: 47.3px;
+    left: 51px;
+    top: 6px;
+    margin-left: 52px;
+}
+.pain
+{
+position: absolute;
+    width: 100px;
+    height: 19px;
+    top: 6px;
+    left: -347px;
+    text-decoration: none;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 27px;
+}
+#taskmania
+{
+position: relative;
+    width: 1628px;
+    height: 106px;
+    left: 242px;
+    top: 0px;
+    background: #FFFFFF;
+}
+#hello
+{
+position: absolute;
+width: 224px;
+height: 35px;
+left: 29px;
+top: 14px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 35px;
+color: #24272A;
+}
+#sideways
+{
+ position: fixed;
+    width: 254px;
+    height: 1024px;
+    left: -3px;
+    top: 0px;
+    background: #FFFFFF;
+    z-index: 10;
+    margin-top: 61px;
+}
+.menu
+{
+  position:relative;
+  bottom:-81px;
+}
+.taskinfo
+{
+position: absolute;
+width: 69px;
+height: 21px;
+left: 74px;
+top: 12px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 27px;
+}
+.add_t
+{
+position: relative;
+width: 209px;
+height: 51px;
+left: 1024px;
+top:26px;
+background: #FF6900;
+border-radius: 8px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 27px;
+border-color: #FFFFFF;
+    border-width: 0px;
+}
+.submit_button
+{
+width: 209px;
+height: 51px;
+background: #FF6900;
+border-radius: 8px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 27px;
+color: #FFFFFF;
+border-color:#FFFFFF;
+border-width:0px;
+}
+.ong
+{
+  position: absolute;
+    width: 124px;
+    height: 21px;
+    left: 86px;
+    top: 49px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: none;
+}
+.cmp
+{
+  position: absolute;
+    width: 124px;
+    height: 21px;
+    left: 86px;
+    top: 80px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: none;
+}
+.completed_task
+{
+  position: absolute;
+    width: 124px;
+    height: 21px;
+    left: 86px;
+    top: 113px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: none;
+}
+.not
+{
+position: absolute;
+    width: 148px;
+    height: 21px;
+    left: 71px;
+    top: 162px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 27px;
+    text-decoration: none;
+}
+.dot
+{
+position: absolute;
+    width: 148px;
+    height: 21px;
+    left: 71px;
+    top: 215px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 27px;
+    text-decoration: none;
+}
+.cleaner_list
+{
+position: absolute;
+    width: 148px;
+    height: 21px;
+    left: 71px;
+    top: 264px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 27px;
+    text-decoration: none;
+}
+.rectangle1
+{
+position: relative;
+    width: 348px;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgb(133 133 133 / 25%);
+    border-radius: 14px;
+}
+.input_text1
+{
+width: 80%;
+background: #F0F0F0;
+padding: 16px 20px;
+border: none;
+border-radius: 8px;
+background-color: #f1f1f1;font-family: Nunito Sans;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize;
+color: #232323;
+}
+.date
+{
+width: 60%;
+    background: #F0F0F0;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+.apt
+{
+position: relative;
+    width: 120px;
+    height: 21px;
+    left: 59px;
+    top: 0px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 25px;
+    color: #393939;
+}
+.input_text2
+{
+width: 80%;
+background: #F0F0F0;
+padding: 16px 20px;
+border: none;
+border-radius: 8px;
+background-color: #f1f1f1;font-family: Nunito Sans;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize;
+color: #232323;
+}
+.select
+{
+ width: 80%;
+background: #F0F0F0;
+padding: 16px 20px;
+border: none;
+border-radius: 8px;
+background-color: #f1f1f1;font-family: Nunito Sans;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize; 
+}
+#text
+{
+  font-family: Nunito Sans;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize;
+}
+.task
+{
+position: absolute;
+width: 232px;
+height: 35px;
+left: 6%;
+top:2%;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 30px;
+color: #FF6900;
+}
+.site_address
+{
+position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 11%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #393939;
+}
+.site_addressadmin
+{
+position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 12%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #393939;
+}
+.site_addressadmin2
+{
+position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 11%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #393939;
+}
+.description1
+{
+ position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 140px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+}
+.descriptionadd
+{
+ position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 144px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+}
+.line
+{
+position: absolute;
+    width: 348px;
+    height: 0px;
+    border: 1px solid #ECECEC;
+}
+.date
+{
+  background-color: white;
+    height: 0px;
+    margin-left: 9%;
+    color: #FF6900;
+    position: relative;
+    left: 2%;
+}
+.apt
+{
+  position: relative;
+    width: 120px;
+    height: 21px;
+    left: 59px;
+    top: 0px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 25px;
+    color: #393939;
+}
+.cleaner
+{
+margin-left: 5%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+    position: relative;
+    top: -1px;
+}
+.edit_button
+{
+margin-top:-2%;
+margin-left:85%;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #393939;
+}
+}
+@media (min-width: 481px) and (max-width: 767px) {
+	.bday
+	{
+	width: 60%;
+    background: #F0F0F0;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    font-family: Nunito Sans;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+	color: #232323;
+	}
+	.modal-footer
+	{
+	padding: 15px;
+    text-align: right;
+	border-top:0px;
+	}
+	.modal-header
+	{
+	padding:15px;
+	border-bottom:0px;
+	}
+	.navbar
+  {
+   background-color: #FF6900;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    height: 60px;
+    width: 121.58%;
+    left: -3px;
+  }
+.header
+{
+  background-color:white;
+  height:60px;
+}
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar{
+  height: 100%;
+  background:white;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.wrapper .sidebar h2{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+  padding: 15px;
+}    
+
+.wrapper .sidebar ul li a{
+  color: #bdb8d7;
+  display: block;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+ 
+.wrapper .sidebar .social_media{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.wrapper .sidebar .social_media a{
+  display: block;
+  width: 40px;
+  background: #594f8d;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: #bdb8d7;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 200px;
+}
+
+.wrapper .main_content .header{
+  padding: 20px;
+  background: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}
+	.cleaner29
+	{
+	margin-left: 5%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+    position: relative;
+    top: 12px;
+	}
+	#tasksbuttonclock
+	{
+	position: relative;
+    left: -42.35%;
+    top: 69.64%;
+    color: #FFFFFF;
+    background: #FF6900;
+    border-radius: 8px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+	}
+	.clockinput
+	{
+	font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #262626;
+    position: relative;
+    top: -26px;
+    right: -20px;
+	}
+	.clockoutput
+	{
+	font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #262626;
+    position: relative;
+    top: -34px;
+    right: -57px;
+	}
+	.changeb
+	{
+		font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #393939;
+    position: relative;
+    right: -281px;
+    top: -14px;
+	}
+	.modal-body21
+	{
+	position: relative;
+    padding: 15px;
+    top: 42px;
+    right: -49px;
+	}
+	.manj
+	{
+	width: 281px;
+    height: 21px;
+    left: 370px;
+    top: 420px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #393939;
+	}
+	.description2
+	{
+	position: relative;
+    width: 281px;
+    height: 21px;
+    left: 17px;
+    top: 12px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+	}
+	.col-md-3
+	{
+	width: 25.01%;
+	}
+	.list1
+	{
+		position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 149px;
+    top: 24px;
+	}
+	.grid1
+	{
+	position: absolute; */
+    width: 50px;
+    height: 50px;
+    left: 226px;
+    top: 24px;
+	}
+	.texty
+	{
+	position: absolute;
+left: 6.01%;
+right: 4.7%;
+top: 20.09%;
+bottom: 50.45%;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+text-align: center;
+
+color: #000000;
+	}
+#tasksbutton2 {
+  width: 139px;
+    position: relative;
+    left: -11.21%;
+    /* right: 50.91%; */
+    top: 43.2px;
+    color: #FF6900;
+    background: #FFFFFF;
+    border: 1px solid #FF6900;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#tasksbutton3 {
+    position: relative;
+    width: 139px;
+    left: -11.35%;
+    top: 43.2px;
+    /* bottom: -43px; */
+    color: #FFFFFF;
+    background: #FF6900;
+    border-radius: 8px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    border-color: #FFFFFF;
+}
+.best
+{
+  background-color:#E5E5E5;
+overflow-y: scroll; /* Add the ability to scroll */
+overflow-x:scroll;
+font-family: Nunito Sans;
+}
+#arrange
+{
+position: relative;
+    width: 168.49px;
+    height: 47.3px;
+    left: 51px;
+    top: 6px;
+    margin-left: 52px;
+}
+.pain
+{
+position: absolute;
+    width: 100px;
+    height: 19px;
+    top: -39px;
+    left: 378px;
+    text-decoration: none;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 27px;
+}
+#taskmania
+{
+position: relative;
+    width: 1628px;
+    height: 106px;
+    left: 242px;
+    top: 0px;
+    background: #FFFFFF;
+}
+#hello
+{
+position: absolute;
+width: 224px;
+height: 35px;
+left: 29px;
+top: 14px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 35px;
+color: #24272A;
+}
+#sideways
+{
+ position: fixed;
+    width: 254px;
+    height: 1024px;
+    left: -3px;
+    top: 0px;
+    background: #FFFFFF;
+    z-index: 10;
+    margin-top: 61px;
+}
+.menu
+{
+  position:relative;
+  bottom:-81px;
+}
+.taskinfo
+{
+position: absolute;
+width: 69px;
+height: 21px;
+left: 74px;
+top: 12px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 27px;
+}
+.add_t
+{
+position: relative;
+width: 209px;
+height: 51px;
+left: 950px;
+top:26px;
+background: #FF6900;
+border-radius: 8px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 27px;
+border-color: #FFFFFF;
+    border-width: 0px;
+}
+.submit_button
+{
+width: 209px;
+height: 51px;
+background: #FF6900;
+border-radius: 8px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 27px;
+color: #FFFFFF;
+border-color:#FFFFFF;
+border-width:0px;
+}
+.ong
+{
+  position: absolute;
+    width: 124px;
+    height: 21px;
+    left: 86px;
+    top: 49px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: none;
+}
+.cmp
+{
+  position: absolute;
+    width: 124px;
+    height: 21px;
+    left: 86px;
+    top: 80px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: none;
+}
+.completed_task
+{
+  position: absolute;
+    width: 124px;
+    height: 21px;
+    left: 86px;
+    top: 113px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: none;
+}
+.not
+{
+position: absolute;
+    width: 148px;
+    height: 21px;
+    left: 71px;
+    top: 162px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 27px;
+    text-decoration: none;
+}
+.dot
+{
+position: absolute;
+    width: 148px;
+    height: 21px;
+    left: 71px;
+    top: 215px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 27px;
+    text-decoration: none;
+}
+.cleaner_list
+{
+position: absolute;
+    width: 148px;
+    height: 21px;
+    left: 71px;
+    top: 264px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 27px;
+    text-decoration: none;
+}
+.rectangle1
+{
+position: relative;
+    width: 348px;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgb(133 133 133 / 25%);
+    border-radius: 14px;
+}
+.input_text1
+{
+width: 80%;
+background: #F0F0F0;
+padding: 16px 20px;
+border: none;
+border-radius: 8px;
+background-color: #f1f1f1;font-family: Nunito Sans;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize;
+color: #232323;
+}
+.date
+{
+width: 60%;
+    background: #F0F0F0;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+.apt
+{
+position: relative;
+    width: 120px;
+    height: 21px;
+    left: 59px;
+    top: 0px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 25px;
+    color: #393939;
+}
+.input_text2
+{
+width: 80%;
+background: #F0F0F0;
+padding: 16px 20px;
+border: none;
+border-radius: 8px;
+background-color: #f1f1f1;font-family: Nunito Sans;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize;
+color: #232323;
+}
+.select
+{
+ width: 80%;
+background: #F0F0F0;
+padding: 16px 20px;
+border: none;
+border-radius: 8px;
+background-color: #f1f1f1;font-family: Nunito Sans;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize; 
+}
+#text
+{
+  font-family: Nunito Sans;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize;
+}
+.task
+{
+position: absolute;
+width: 232px;
+height: 35px;
+left: 6%;
+top:2%;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 30px;
+color: #FF6900;
+}
+.site_address
+{
+position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 11%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #393939;
+}
+.site_addressadmin
+{
+position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 12%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #393939;
+}
+.site_addressadmin2
+{
+position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 11%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #393939;
+}
+.description1
+{
+ position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 140px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+}
+.descriptionadd
+{
+ position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 144px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+}
+.line
+{
+position: absolute;
+    width: 348px;
+    height: 0px;
+    border: 1px solid #ECECEC;
+}
+.date
+{
+  background-color: white;
+    height: 0px;
+    margin-left: 9%;
+    color: #FF6900;
+    position: relative;
+    left: 2%;
+}
+.apt
+{
+  position: relative;
+    width: 120px;
+    height: 21px;
+    left: 59px;
+    top: 0px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 25px;
+    color: #393939;
+}
+.cleaner
+{
+margin-left: 5%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+    position: relative;
+    top: -1px;
+}
+.edit_button
+{
+margin-top:-2%;
+margin-left:85%;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #393939;
+}
+}
+@media (min-width: 320px) and (max-width: 480px) {
+	.bday
+	{
+	width: 60%;
+    background: #F0F0F0;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    font-family: Nunito Sans;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+	color: #232323;
+	}
+	.modal-footer
+	{
+	padding: 15px;
+    text-align: right;
+	border-top:0px;
+	}
+.modal-header
+	{
+	padding:15px;
+	border-bottom:0px;
+	}
+.navbar
+  {
+    background-color: #FF6900;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    height: 60px;
+    width: 121.58%;
+    left: -3px;
+  }
+.header
+{
+  background-color:white;
+  height:60px;
+}
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar{
+  height: 100%;
+  background:white;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.wrapper .sidebar h2{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+  padding: 15px;
+}    
+
+.wrapper .sidebar ul li a{
+  color: #bdb8d7;
+  display: block;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+ 
+.wrapper .sidebar .social_media{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.wrapper .sidebar .social_media a{
+  display: block;
+  width: 40px;
+  background: #594f8d;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: #bdb8d7;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 200px;
+}
+
+.wrapper .main_content .header{
+  padding: 20px;
+  background: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}
+	.cleaner29
+	{
+	margin-left: 5%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+    position: relative;
+    top: 12px;
+	}
+	#tasksbuttonclock
+	{
+	position: relative;
+    left: -42.35%;
+    top: 69.64%;
+    color: #FFFFFF;
+    background: #FF6900;
+    border-radius: 8px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+	}
+	.clockinput
+	{
+	font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #262626;
+    position: relative;
+    top: -26px;
+    right: -20px;
+	}
+	.clockoutput
+	{
+	font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #262626;
+    position: relative;
+    top: -34px;
+    right: -57px;
+	}
+	.changeb
+	{
+		font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #393939;
+    position: relative;
+    right: -281px;
+    top: -14px;
+	}
+	.modal-body21
+	{
+	position: relative;
+    padding: 15px;
+    top: 42px;
+    right: -49px;
+	}
+	.manj
+	{
+	width: 281px;
+    height: 21px;
+    left: 370px;
+    top: 420px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #393939;
+	}
+	.description2
+	{
+	position: relative;
+    width: 281px;
+    height: 21px;
+    left: 17px;
+    top: 12px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+	}
+	.col-md-3
+	{
+	width: 25.01%;
+	}
+	.list1
+	{
+		position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 149px;
+    top: 24px;
+	}
+	.grid1
+	{
+	position: absolute; */
+    width: 50px;
+    height: 50px;
+    left: 226px;
+    top: 24px;
+	}
+	.texty
+	{
+	position: absolute;
+left: 6.01%;
+right: 4.7%;
+top: 20.09%;
+bottom: 50.45%;
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+text-align: center;
+
+color: #000000;
+	}
+#tasksbutton2 {
+   width: 139px;
+    position: relative;
+    left: -11.21%;
+    /* right: 50.91%; */
+    top: 43.2px;
+    color: #FF6900;
+    background: #FFFFFF;
+    border: 1px solid #FF6900;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#tasksbutton3 {
+    position: relative;
+    width: 139px;
+    left: -11.35%;
+    top: 43.2px;
+    /* bottom: -43px; */
+    color: #FFFFFF;
+    background: #FF6900;
+    border-radius: 8px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    border-color: #FFFFFF;
+}
+.best
+{
+  background-color:#E5E5E5;
+overflow-y: scroll; /* Add the ability to scroll */
+overflow-x:scroll;
+font-family: Nunito Sans;
+}
+#arrange
+{
+position: relative;
+    width: 168.49px;
+    height: 47.3px;
+    left: 51px;
+    top: 6px;
+    margin-left: 52px;
+}
+.pain
+{
+position: absolute;
+    width: 100px;
+    height: 19px;
+    top: -39px;
+    left: 508px;
+    text-decoration: none;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 27px;
+}
+#taskmania
+{
+position: relative;
+    width: 1628px;
+    height: 106px;
+    left: 242px;
+    top: 0px;
+    background: #FFFFFF;
+}
+#hello
+{
+position: absolute;
+width: 224px;
+height: 35px;
+left: 29px;
+top: 14px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 35px;
+color: #24272A;
+}
+#sideways
+{
+position: fixed;
+    width: 254px;
+    height: 1024px;
+    left: -3px;
+    top: 0px;
+    background: #FFFFFF;
+    z-index: 10;
+    margin-top: 61px;
+}
+.menu
+{
+  position:relative;
+  bottom:-81px;
+}
+.taskinfo
+{
+position: absolute;
+width: 69px;
+height: 21px;
+left: 74px;
+top: 12px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 27px;
+}
+.add_t
+{
+position: relative;
+width: 209px;
+height: 51px;
+left: 950px;
+top:26px;
+background: #FF6900;
+border-radius: 8px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 27px;
+border-color: #FFFFFF;
+    border-width: 0px;
+}
+.submit_button
+{
+width: 209px;
+height: 51px;
+background: #FF6900;
+border-radius: 8px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 27px;
+color: #FFFFFF;
+border-color:#FFFFFF;
+border-width:0px;
+}
+.ong
+{
+  position: absolute;
+    width: 124px;
+    height: 21px;
+    left: 86px;
+    top: 49px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: none;
+}
+.cmp
+{
+  position: absolute;
+    width: 124px;
+    height: 21px;
+    left: 86px;
+    top: 80px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: none;
+}
+.completed_task
+{
+  position: absolute;
+    width: 124px;
+    height: 21px;
+    left: 86px;
+    top: 113px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: none;
+}
+.not
+{
+position: absolute;
+    width: 148px;
+    height: 21px;
+    left: 71px;
+    top: 162px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 27px;
+    text-decoration: none;
+}
+.dot
+{
+position: absolute;
+    width: 148px;
+    height: 21px;
+    left: 71px;
+    top: 215px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 27px;
+    text-decoration: none;
+}
+.cleaner_list
+{
+position: absolute;
+    width: 148px;
+    height: 21px;
+    left: 71px;
+    top: 264px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 27px;
+    text-decoration: none;
+}
+.rectangle1
+{
+position: relative;
+    width: 348px;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgb(133 133 133 / 25%);
+    border-radius: 14px;
+}
+.input_text1
+{
+width: 80%;
+background: #F0F0F0;
+padding: 16px 20px;
+border: none;
+border-radius: 8px;
+background-color: #f1f1f1;font-family: Nunito Sans;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize;
+color: #232323;
+}
+.date
+{
+width: 60%;
+    background: #F0F0F0;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+.apt
+{
+position: relative;
+    width: 120px;
+    height: 21px;
+    left: 59px;
+    top: 0px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 25px;
+    color: #393939;
+}
+.input_text2
+{
+width: 80%;
+background: #F0F0F0;
+padding: 16px 20px;
+border: none;
+border-radius: 8px;
+background-color: #f1f1f1;font-family: Nunito Sans;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize;
+color: #232323;
+}
+.select
+{
+ width: 80%;
+background: #F0F0F0;
+padding: 16px 20px;
+border: none;
+border-radius: 8px;
+background-color: #f1f1f1;font-family: Nunito Sans;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize; 
+}
+#text
+{
+  font-family: Nunito Sans;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize;
+}
+.task
+{
+position: absolute;
+width: 232px;
+height: 35px;
+left: 6%;
+top:2%;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 30px;
+color: #FF6900;
+}
+.site_address
+{
+position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 11%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #393939;
+}
+.site_addressadmin
+{
+position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 12%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #393939;
+}
+.site_addressadmin2
+{
+position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 11%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #393939;
+}
+.description1
+{
+ position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 140px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+}
+.descriptionadd
+{
+ position: absolute;
+    width: 281px;
+    height: 21px;
+    left: 15%;
+    top: 144px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+}
+.line
+{
+position: absolute;
+    width: 348px;
+    height: 0px;
+    border: 1px solid #ECECEC;
+}
+.date
+{
+  background-color: white;
+    height: 0px;
+    margin-left: 9%;
+    color: #FF6900;
+    position: relative;
+    left: 2%;
+}
+.apt
+{
+  position: relative;
+    width: 120px;
+    height: 21px;
+    left: 59px;
+    top: 0px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 25px;
+    color: #393939;
+}
+.cleaner
+{
+margin-left: 5%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #393939;
+    position: relative;
+    top: -1px;
+}
+.edit_button
+{
+margin-top:-2%;
+margin-left:85%;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #393939;
+}
+}
